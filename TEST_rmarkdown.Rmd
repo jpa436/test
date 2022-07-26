@@ -1,0 +1,14 @@
+---
+title: "TEST 1"
+author: "Jiyeon Park"
+date: '2022-07-26'
+output: github_document
+---
+
+## TEST file
+
+```{r}
+a<-rbinom(100, size=50, prob=0.2)
+mean(a)
+hist(a)
+```
