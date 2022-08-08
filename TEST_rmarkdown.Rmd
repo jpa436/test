@@ -11,4 +11,9 @@ output: github_document
 a<-rbinom(100, size=50, prob=0.2)
 mean(a)
 hist(a)
+
+b<-rnorm(1090)
+mean(b)
+hist(b)
+
 ```
